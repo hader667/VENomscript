@@ -1,0 +1,442 @@
+local player = game.Players.LocalPlayer
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "script VENOM PART 3", HidePremium = false, SaveConfig = true, ConfigFolder = "VENOM"})
+
+--[[
+Name = <string> - The name of the UI.
+HidePremium = <bool> - Whether or not the user details shows Premium status or not.
+SaveConfig = <bool> - Toggles the config saving in the UI.
+ConfigFolder = <string> - The name of the folder where the configs are saved.
+IntroEnabled = <bool> - Whether or not to show the intro animation.
+IntroText = <string> - Text to show in the intro animation.
+IntroIcon = <string> - URL to the image you want to use in the intro animation.
+Icon = <string> - URL to the image you want displayed on the window.
+CloseCallback = <function> - Function to execute when the window is closed.
+]]
+
+
+local Tab = Window:MakeTab({
+    Name = "سكربتات عشوائيه",
+    Icon = "rbxassetid://4483345998",
+    PremiumOnly = false
+})
+local player = game.Players.LocalPlayer.Character
+pl = game.Players.LocalPlayer
+t = true
+local fps = setfpscap
+local L7N = 120
+
+local Ha = Health 
+local kmodh = 0
+
+
+--[[
+Name = <string> - The name of the tab.
+Icon = <string> - The icon of the tab.
+PremiumOnly = <bool> - Makes the tab accessible to Sirus Premium users only.
+]]
+
+local Section = Tab:AddSection({
+    Name =  " سكربتات صملات+متعه "
+})
+
+--[[
+Name = <string> - The name of the section.
+]]
+
+OrionLib:MakeNotification({
+    Name = "سكربت فينوم بارت ٣",
+    Content = "Notification content... what will it say??",
+    Image = "rbxassetid://4483345998",
+    Time = 5
+})
+
+--[[
+Title = <string> - The title of the notification.
+Content = <string> - The content of the notification.
+Image = <string> - The icon of the notification.
+Time = <number> - The duration of the notfication.
+]]
+
+Tab:AddButton({
+    Name ="ظ عليه يصير فريماتك 120",
+    Callback = function()
+             fps(VENOM)
+      end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The functi
+]]
+
+Tab:AddButton({
+	Name = "سكربت طيران ",
+	Callback = function()
+        loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\40\39\104\116\116\112\115\58\47\47\103\105\115\116\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\109\101\111\122\111\110\101\89\84\47\98\102\48\51\55\100\102\102\57\102\48\97\55\48\48\49\55\51\48\52\100\100\100\54\55\102\100\99\100\51\55\48\47\114\97\119\47\101\49\52\101\55\52\102\52\50\53\98\48\54\48\100\102\53\50\51\51\52\51\99\102\51\48\98\55\56\55\48\55\52\101\98\51\99\53\100\50\47\97\114\99\101\117\115\37\50\53\50\48\120\37\50\53\50\48\102\108\121\37\50\53\50\48\50\37\50\53\50\48\111\98\102\108\117\99\97\116\111\114\39\41\44\116\114\117\101\41\41\40\41\10\10")()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+
+Tab:AddButton({
+	Name = "سكربت ESP",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/tbao143/thaibao/main/TbaoHubEsp"))()
+  	end    
+})
+
+
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+Tab:AddButton({
+	Name = "سكربت rtx",
+	Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/CHT5hzTB"))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+local Tab = Window:MakeTab({
+	Name = "سكربتات AFK",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+--[[
+Name = <string> - The name of the tab.
+Icon = <string> - The icon of the tab.
+PremiumOnly = <bool> - Makes the tab accessible to Sirus Premium users only.
+]]
+
+
+Tab:AddButton({
+	Name = "صملة 1",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/evxncodes/mainroblox/main/anti-afk", true))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+Tab:AddButton({
+	Name = "صملة 2",
+	Callback = function()
+        loadstring(game:HttpGet(('https://raw.githubusercontent.com/RTrade/Voidz/main/AntiAFK.lua'),true))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+Tab:AddButton({
+	Name = "صملة 3",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ArgetnarYT/scripts/main/AntiAfk2.lua"))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+Tab:AddButton({
+	Name = "صملة 4 يمطن ما يشتغل",
+	Callback = function()
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+Tab:AddButton({
+	Name = "صملة 5",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/batusz/main/roblox/__Anti__Afk__Script__", true))()
+  	end    
+})
+
+		--[[
+		Name = <string> - The name of the button.
+		Callback = <function> - The function of the button.
+		]]
+
+
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+Tab:AddButton({
+	Name = "صملة 6",
+	Callback = function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/SZkHcmKR"))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+
+local Tab = Window:MakeTab({
+	Name = "سكربتات ادمن",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+--[[
+Name = <string> - The name of the tab.
+Icon = <string> - The icon of the tab.
+PremiumOnly = <bool> - Makes the tab accessible to Sirus Premium users only.
+]]
+
+
+local Section = Tab:AddSection({
+	Name = "بعص السكربتات غير شغالات"
+})
+
+--[[
+Name = <string> - The name of the section.
+]]
+
+Tab:AddButton({
+	Name = "سكربت انفنتي!",
+	Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+
+Tab:AddButton({
+	Name = "سكربت ادمن التقطه",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/NamelessAdmin/main/Source"))();
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+Tab:AddButton({
+	Name = "سكربت ادمن التقطه ٢",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/BloodyBurns/Hex/main/Iv%20Admin%20v3.lua"))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+Tab:AddButton({
+	Name = "سكربت رهيب",
+	Callback = function()
+        loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Sky-Hub-10706"))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+
+local Tab = Window:MakeTab({
+	Name = "سكربتات بروك هافن",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+--[[
+Name = <string> - The name of the tab.
+Icon = <string> - The icon of the tab.
+PremiumOnly = <bool> - Makes the tab accessible to Sirus Premium users only.
+]]
+
+Tab:AddButton({
+	Name = "سكربت جل هب",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/JulHubz/JulHub/main/JulHub"))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+Tab:AddButton({
+	Name = "سكربت ريدز هب",
+	Callback = function()
+      		
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+Tab:AddButton({
+	Name = "رقصات",
+	Callback = function()
+        loadstring(game:HttpGet("https://scriptblox.com/raw/Brookhaven-RP-all-emotes-6849"))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+local Tab = Window:MakeTab({
+	Name = "سكربتات زيادة",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "بعض السكربتات يسوي لاق"
+})
+
+Tab:AddButton({
+	Name = "سكربت فيك لاق",
+	Callback = function()
+            loadstring(game:HttpGet(('https://scriptblox.com/raw/Universal-Script-MobileKeyboard-8101'),true))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "سكربت زب و فيه بعد اشياء",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/sXPiterXs1111/Sanderx3.25/main/sanderxv3.25.lua"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "سكربتي القديم",
+	Callback = function()
+            
+loadstring(game:HttpGet('https://raw.githubusercontent.com/hader667/ggoo/main/ohio'))()
+  	end    
+})
+
+Tab:AddLabel("السكربت هاذ لعيون صلاح طلبه مني")
+      
+local Tab = Window:MakeTab({
+	Name = "الوصف",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+--[[
+Name = <string> - The name of the tab.
+Icon = <string> - The icon of the tab.
+PremiumOnly = <bool> - Makes the tab accessible to Sirus Premium users only.
+]]
+
+local Section = Tab:AddSection({
+	Name = "كس ام كل شخص هنا كس امك كرار كس امك داني كس امك على كي اختك زيد كس امك اوسكار كس امك قحط كس امك "
+})
+
+--[[
+Name = <string> - The name of the section.
+]]
+
+local Section = Tab:AddSection({
+	Name = "انستا hv__40"
+})
+
+OrionLib:Init()
